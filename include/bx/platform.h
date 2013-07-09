@@ -18,6 +18,7 @@
 #define BX_PLATFORM_OSX 0
 #define BX_PLATFORM_WINDOWS 0
 #define BX_PLATFORM_XBOX360 0
+#define BX_PLATFORM_PS3 0
 
 #define BX_CPU_ARM 0
 #define BX_CPU_PPC 0
