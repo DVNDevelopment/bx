@@ -106,7 +106,7 @@
 #	define BX_ARCH_32BIT 1
 #endif //
 
-#if BX_CPU_PPC
+#if BX_CPU_PPC || BX_PLATFORM_XBOX360
 #	undef BX_CPU_ENDIAN_BIG
 #	define BX_CPU_ENDIAN_BIG 1
 #else
