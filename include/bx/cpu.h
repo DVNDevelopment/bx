@@ -13,7 +13,6 @@
 #		include <ppcintrinsics.h>
 #		include <xtl.h>
 #	else
-#		include <math.h> // math.h is included because VS bitches:
 						 // warning C4985: 'ceil': attributes not present on previous declaration.
 						 // must be included before intrin.h.
 #		include <intrin.h>
