@@ -31,6 +31,11 @@ namespace bx
 
 		~SpScUnboundedQueueLf()
 		{
+			Destroy();
+		}
+
+		void Destroy()
+		{
 			while (NULL != m_first)
 			{
 				Node* node = m_first;
