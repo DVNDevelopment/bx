@@ -11,8 +11,11 @@
 #if BX_PLATFORM_POSIX
 #	include <semaphore.h>
 #	include <time.h>
-#elif BX_PLATFORM_WINDOWS || BX_PLATFORM_XBOX360
+#elif BX_PLATFORM_WINDOWS
 #	include <windows.h>
+#	include <limits.h>
+#elif BX_PLATFORM_XBOX360
+#	include <xtl.h>
 #	include <limits.h>
 #endif // BX_PLATFORM_
 
